@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+}
+
+#title {
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    text-shadow: 3px 3px 6px;
+}
+
+.break {
+    color: white;
+    border-width: 5px;
+    margin-top: -30px;
+}
+
+#rock, #paper, #scissors {
+    border: 3px solid;
+    border-color: white;
+    height: 400px;
+    width: 400px;
+    cursor: pointer;
+}
+
+img {
+    max-height: 400px;
+    max-width: 400px;
+}
+
+#container {
+    margin-top: -15px;
+    margin-left: 17.4%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+
+button {
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: 3px 3px 5px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 22px;
+    margin-top: 20px;
+    margin-left: 44.7%;
+    height: 80px;
+    width: 200px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+#player {
+    margin-left: 330px;
+    color: white;
+}
+
+#computer {
+    margin-left: 985px;
+    color: white;
+}
+
+#score {
+    display: flex;
+}
+
+#rules {
+    margin-left: 45.2%;
+}
