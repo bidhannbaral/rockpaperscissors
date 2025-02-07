@@ -69,9 +69,11 @@ function playGame() {
 
     function checkForWin() {
         if (userScore == 5) {
+            alert("You have defeated the computer!");
             detail.textContent = "You have defeated the computer!";
             endGame();
         } else if (computerScore == 5) {
+            alert("The computer has defeated you!");
             detail.textContent = "The computer has defeated you!";
             endGame();
         }
@@ -98,11 +100,7 @@ function playGame() {
 }
 
 function startGame() {
-
     play.disabled = false;
-    rock.disabled = false;
-    paper.disabled = false;
-    scissors.disabled = false;
 
     play.addEventListener("click", () => {
         detail.textContent = "You are now playing";
@@ -116,10 +114,6 @@ function endGame() {
 
     playerScoreCounter.textContent = userScore;
     computerScoreCounter.textContent = computerScore;
-    
-    rock.disabled = true;
-    paper.disabled = true;
-    scissors.disabled = true;
 }
 
 startGame();
